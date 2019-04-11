@@ -1,0 +1,12 @@
+anime({
+  targets: '.morphing-demo .polymorph',
+  points: [
+    { value: [
+      '70 24 119.574 60.369 100.145 117.631 50.855 101.631 3.426 54.369',
+      '70 41 118.574 59.369 111.145 132.631 60.855 84.631 20.426 60.369']
+    }
+  ],
+  easing: 'easeOutQuad',
+  duration: 2000,
+  loop: true
+});                                                                       
