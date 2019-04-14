@@ -90,6 +90,7 @@ input{
     margin-bottom: 1%;
     text-transform: capitalize;
     -webkit-appearance: none;
+    min-height: 100px;
     
 }
 button{
@@ -105,6 +106,7 @@ button{
     font-size: 1.8vw;
     font-weight: 800;
     -webkit-appearance: none;
+    min-height: 100px;
 }
 button:active {
     background-color: rgb(44, 62, 80);
@@ -141,20 +143,20 @@ h1, #welcome{
     text-transform: capitalize;
 }
 span{
-
+    
     opacity: 0;
 }
 .back-ani{    
-animation: showup 7s;
-animation-iteration-count: 1;
+    animation: showup 7s;
+    animation-iteration-count: 1;
 }
 
 
 
 @keyframes showup {
-0% {opacity:0;}
-20% {opacity:1;}
-80% {opacity:1;}
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
 100% {opacity:0;} 
 }
 
