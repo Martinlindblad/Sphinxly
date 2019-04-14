@@ -21,7 +21,7 @@ $(document).ready(function () {
   
   let high = window.innerHeight;             // Get screen Size
   let wide = window.innerWidth;
-  $('body').css({"width": wide, "height": high});
+  
   
   $('#graphic').removeAttr('viewBox');
   $('#graphic').each(function () {                // Make every SVG Responsive
