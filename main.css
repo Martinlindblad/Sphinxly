@@ -237,9 +237,8 @@ animation-iteration-count: 1;
 
 @media (min-height: 1000px), (max-width: 600px) {
     
-    .back{
-        top: 10%;
-        
+    .input-container{
+        top: 15%;
     }
 
 
