@@ -114,16 +114,18 @@ button:active {
     transform: translateY(4px);
 }
 button:hover {background-color:rgb(55, 76, 96); }
-h1, #welcome{
+h1, h3, #welcome{
     font-size: 2.7vw;
     transition: height 0.66s ease-out;
     color: #FFD475;
     margin-bottom: 4%;
     
 }
+h3{
+    font-size: 1.7vw;
+}
 #welcome{
     font-size: 5vw;
-    
 }
 
 .back{
@@ -143,7 +145,6 @@ h1, #welcome{
     text-transform: capitalize;
 }
 span{
-    
     opacity: 0;
 }
 .back-ani{    
@@ -197,6 +198,9 @@ span{
        font-size: 5vw;
         
     }
+    h3{
+        font-size: 2vw;
+    }
     #welcome{
         font-size: 10vw;
         
@@ -228,6 +232,9 @@ span{
    #welcome{
         font-size: 11vw;
         
+    }
+    h3{
+        font-size: 3vw;
     }
     
     .back{
