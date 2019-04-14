@@ -232,6 +232,15 @@ animation-iteration-count: 1;
         top: 15%;
         
     }
+    
+}
+
+@media (min-height: 1000px), (max-width: 600px) {
+    
+    .back{
+        top: 10%;
+        
+    }
 
 
 }
