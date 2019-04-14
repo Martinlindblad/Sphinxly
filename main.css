@@ -48,10 +48,6 @@ body, html {
     height: 100vh;
     background: black;
     opacity: 0.6;  
-    
-    
-    
-    
     position: fixed;
     left: 0%;
     top: 0%;
@@ -115,14 +111,14 @@ button:active {
     transform: translateY(4px);
 }
 button:hover {background-color:rgb(55, 76, 96); }
-h1, h3{
+h1, #welcome{
     font-size: 2.7vw;
     transition: height 0.66s ease-out;
     color: #FFD475;
     margin-bottom: 4%;
     
 }
-h3{
+#welcome{
     font-size: 1.7vw;
     
 }

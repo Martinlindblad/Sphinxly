@@ -47,7 +47,7 @@ function validateName(namn) {      // Validates the name
 }
 $('#click').on('click', function () {   // Clicking the button will check the validation of the input field
   if(!validateName()) {
-    $('#world').text("Your name dosen't  the way of the world. Try Again!"); // Will execute if exp: number
+    $('#world').text("Your name dosen't  match the way of the world. Try Again!"); // Will execute if exp: number
   }else{
     $('#world').remove();  // Remove the element while input is valid
     
