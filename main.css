@@ -2,12 +2,12 @@
     outline: none;
     border: none;
    
+    box-sizing: border-box;
     font-family: 'Montserrat';
 }
 body, html {
     display: block;
     margin: 0% auto;
-    box-sizing: border-box;
     overflow: hidden;
     background: #0B486B;  
     background: -webkit-linear-gradient( #F56217, #0B486B);  
