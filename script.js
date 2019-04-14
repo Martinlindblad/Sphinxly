@@ -22,6 +22,10 @@ $(document).ready(function () {
   let high = window.innerHeight;             // Get screen Size
   let wide = window.innerWidth;
   
+  setTimeout(function () {
+    let viewport = document.querySelector("meta[name=viewport]");
+    viewport.setAttribute("content", "height=" + high + "px, width=" + wide + "px, initial-scale=1.0");
+}, 300);
   
   $('#graphic').removeAttr('viewBox');
   $('#graphic').each(function () {                // Make every SVG Responsive
