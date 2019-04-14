@@ -22,7 +22,7 @@ $(document).ready(function () {
   let high = window.innerHeight;             // Get screen Size
   let wide = window.innerWidth;
   
-  setTimeout(function () {
+  setTimeout(function () {                              // Fix content moving on mobile device (Android)
     let viewport = document.querySelector("meta[name=viewport]");
     viewport.setAttribute("content", "height=" + high + "px, width=" + wide + "px, initial-scale=1.0");
 }, 300);
