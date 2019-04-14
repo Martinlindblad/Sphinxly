@@ -15,8 +15,6 @@ body, html {
 }
 
 .container-svg{
-    
-    
     background-image: url(seagull.jpg);
     background-size: 100vw;
     background-position: fixed;
